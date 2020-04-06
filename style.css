@@ -15,4 +15,7 @@ footer {
 }
 div {
 background: #1E90FF;
+  width: 45%;
+margin: 0 2.5%;
+float: left;
 }
