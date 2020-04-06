@@ -1,8 +1,11 @@
 body {
-  background: gray;
-  color: red;
+  background: #F5F5DC;
+  color: #1E90FF;
 }
 header {
- color: blue;
+ color: #4682B4;
 font-weight: bold;
 }
+footer {
+  color: blue;
+  font-weight: bold
