@@ -19,3 +19,7 @@ background: #1E90FF;
 margin: 20px 2.5% 40px 2.5%;
 float: left;
 }
+div img {
+ width: 100%;
+height: auto;
+}
