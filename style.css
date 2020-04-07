@@ -26,9 +26,20 @@ height: auto;
 h1, h3 {
 text-align: center
 }
+
 table {
-  width: 80%;
-  height: auto;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+tr {
+  background-color: #E0FFFF;
 }
 
 /*   This is how you add comments in CSS. I'm adding a few new things below    */
