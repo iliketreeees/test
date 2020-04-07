@@ -14,7 +14,7 @@ footer {
   font-weight: bold
 }
 div {
-background: #1E90FF;
+background: #E0FFFF;
   width: 45%;
 margin: 20px 2.5% 40px 2.5%;
 float: left;
@@ -43,7 +43,7 @@ ul {
 }
 
 li {
-  background: #1E90FF;
+  background: #E0FFFF;
   text-align: center;
   margin: 20px;
   padding: 20px; /* margin spaces the outside of a box. padding is used to add space within the box */
