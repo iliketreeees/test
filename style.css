@@ -1,79 +1,108 @@
 body {
-  background: #F5F5DC;
-  color: black;
-  width: 95%;
-    max-width: 960px;
-    margin: 0 auto;
+     background: #F5F5DC;
+     color: black;
+     width: 95%;
+     max-width: 960px;
+     margin: 0 auto;
 }
-header {
-  border: 3px solid black;
-  background: #ff4d4d;
- color: black;
-font-weight: bold;
+ header {
+     border: 3px solid black;
+     background: #ff4d4d;
+     color: black;
+     font-weight: bold;
 }
-footer {
-  color: blue;
-  font-weight: bold;
+ footer {
+     color: blue;
+     font-weight: bold;
 }
-div {
-  border: 2px solid black;
-background: #E0FFFF;
-  width: calc(45% - 2px);
-margin: 20px 2% 40px 2%;
-float: left;
+ div {
+     border: 2px solid black;
+     background: #E0FFFF;
+     width: calc(45% - 2px);
+     margin: 20px 2% 40px 2%;
+     float: left;
 }
-article {
-    border: 2px solid black;
-}  
-div img {
- width: 100%;
-height: auto;
+ article {
+     border: 2px solid black;
 }
-article img {
-width: 100%;
-height: auto;
+ div img {
+     width: 100%;
+     height: auto;
 }
-h1, h3 {
-text-align: center
+ article img {
+     width: 100%;
+     height: auto;
 }
-h2 {
-width: 90%;
-margin: 0 auto
+ h1, h3 {
+     text-align: center 
 }
-
-table {
-  border-collapse: collapse;
-  width: 100%;
+ h2 {
+     width: 90%;
+     margin: 0 auto 
 }
-
-td, th {
-  border: 1px solid black;
-  text-align: left;
-  padding: 8px;
+ table {
+     border-collapse: collapse;
+     width: 100%;
 }
-
-tr {
-  background-color: #E0FFFF;
+ td, th {
+     border: 1px solid black;
+     text-align: left;
+     padding: 8px;
 }
-
-/*   This is how you add comments in CSS. I'm adding a few new things below    */
-
-nav {
-  text-align: center; /* with this, everything within nav gets centre-aligned. even though it's called text-align, it also works on images */
+ tr {
+     background-color: #E0FFFF;
 }
-
-ul {
-  /* uncomment the rule below to see the bullet points disappear on English Explorers. */
-  list-style: none;
-  margin: 0 auto;
-  width: 50%;
-  min-width: 400px;
+ nav {
+     text-align: center;
+     clear: both;
 }
-
-li {
-  background: #E0FFFF;
-  text-align: center;
-  margin: 20px;
-  padding: 20px; /* margin spaces the outside of a box. padding is used to add space within the box */
-  
+ ul {
+     list-style: none;
+     margin: 0 auto;
+     width: 50%;
+     min-width: 400px;
 }
+ li {
+     background: #E0FFFF;
+     text-align: center;
+     margin: 20px;
+     padding: 20px;
+}
+ article {
+     position: fixed;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     background: rgba(0, 0, 0, 0.2);
+     z-index: 99999;
+     opacity: 0;
+     pointer-events: none;
+     text-align: center;
+}
+ article:target {
+     opacity: 1;
+     pointer-events: auto;
+}
+ article > div {
+     width: calc(90% - 40px);
+     height: calc(100% - 40px);
+     position: relative;
+     margin: 0 auto;
+     background: #ffffff;
+     float: none;
+     overflow-y: auto;
+     padding: 20px;
+}
+ article p {
+     text-align: left;
+}
+ article img {
+     width: 100%;
+     height: auto;
+}
+ .close {
+     padding: 20px;
+     background: red;
+}
+ 
