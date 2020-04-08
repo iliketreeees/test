@@ -98,12 +98,12 @@ th {
      padding: 20px;
 }
 
-.gallery {
+section {
      display: flex;
 	flex-direction: row;     
 }
 
-.gallery img {
+section img {
      justify-content: space-around;
 }
 
