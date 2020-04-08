@@ -46,9 +46,12 @@ body {
      width: 100%;
 }
  td, th {
-     border: 1px solid black;
+     border: 2px solid black;
      text-align: left;
      padding: 8px;
+}
+th {
+     width: 25%;
 }
  tr {
      background-color: #E0FFFF;
