@@ -101,10 +101,12 @@ th {
 section {
      display: flex;
 	flex-direction: row;     
+	justify-content: space-between;
 }
 
 section img {
-     justify-content: space-around;
+     height: 360px;	
+	width: auto;
 }
 
  article p {
