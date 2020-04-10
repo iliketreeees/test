@@ -17,7 +17,7 @@ body {
 }
  div {
      border: 2px solid black;
-     background: #E0FFFF;
+     background:  #a1ebf7;
      width: calc(45% - 2px);
      margin: 20px 2% 40px 2%;
      float: left;
@@ -53,7 +53,7 @@ th {
      width: 25%;
 }
  tr {
-     background-color: #E0FFFF;
+     background-color:  #a1ebf7;
 }
  nav {
      text-align: center;
@@ -66,7 +66,7 @@ th {
      min-width: 400px;
 }
  li {
-     background: #E0FFFF;
+     background:  #a1ebf7;
      text-align: center;
      margin: 20px;
      padding: 20px;
